@@ -1,48 +1,63 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>My Google</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="googlesc.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="google.css" />
     <script src="main.js"></script>
-</head>
-<body>
-    <div class="navigationL">
-        <a href="#">About</a>
-        <a id="padding" href="#">Store</a>
+  </head>
+  <body>
+    <div class="navigation">
+      <div class="navigationL">
+        <a
+          href="https://www.google.com/intl/en/about/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header"
+          >About</a
+        >
+        <a
+          id="padding"
+          href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042"
+          >Store</a
+        >
+      </div>
+      <div class="navigationR">
+        <a href="#">Gmail</a> <a id="padding" href="#">Images</a>
+        <img class="icon" id="padding" src="/Images/apps.png" />
+        <img class="icon" id="padding" src="/Images/bell.png" />
+        <img class="me" id="me" src="/Images/me.png" />
+      </div>
     </div>
-    <div class="navigationR">
-        <a href="#">Gmail</a>
-        <a id="padding" href="#">Images</a>
-        <img id="padding" src="apps.png">
-        <img id="padding" src="bell.png">
-        <img id="me" src="me.png">
-    </div>
-        <center>
-            <div class="googleimg">
-                <img src="google.png"> <br>
-            </div>
-            <div class="search">
-                <input type="search" name="search">
-            </div>
-            <div class="buttons">
-                <input type="button" name="google search" value="Google Search" id="button">
-                <input type="button" name="Feeling Lucky" value="Feeling Lucky" id="button">
-            </div>
-        </center>
-</body>
-<footer>
-    <div class="footerL">
+    <center>
+      <div class="googleimg"><img src="/Images/google.png" /> <br /></div>
+      <div class="search">
+        <input class="searchBar" type="search" name="search" />
+        <img class="mic" src="/Images/mic.png" alt="" />
+      </div>
+      <div class="buttons">
+        <input
+          type="button"
+          name="google search"
+          value="Google Search"
+          id="button"
+        />
+        <input
+          type="button"
+          name="Feeling Lucky"
+          value="Feeling Lucky"
+          id="button"
+        />
+      </div>
+    </center>
+    <div class="footer">
+      <div class="footerL">
         <a id="padding" href="#">Advertising</a>
         <a id="padding" href="#">Buisness</a>
-    </div>
-    <div class="footerR">
-        <a id="padding" href="#">Privacy</a>
-        <a id="padding" href="#">Terms</a>
+      </div>
+      <div class="footerR">
+        <a id="padding" href="#">Privacy</a> <a id="padding" href="#">Terms</a>
         <a id="me" href="#">Settings</a>
+      </div>
     </div>
-</footer>
-
+  </body>
 </html>

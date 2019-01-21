@@ -26,6 +26,7 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   width: 25%;
+  justify-items: center;
 }
 .navigation a {
   text-decoration-line: none;
@@ -38,6 +39,8 @@ body {
 .icon {
   width: 20px;
   height: 20px;
+}
+#padding {
 }
 .googleimg {
   padding-top: 150px;
@@ -64,6 +67,9 @@ body {
 }
 .buttons {
   padding-top: 30px;
+}
+#button {
+  margin: 5px;
 }
 .buttons input {
   font-weight: bold;
